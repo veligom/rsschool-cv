@@ -3,3 +3,4 @@
 # Yury Niadzvedski
 ***
 ### Contact information
+![location](https://img.icons8.com/ios-filled/20/null/visit.png) **Location:** Mogilev, Republic of Belarus
