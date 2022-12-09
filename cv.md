@@ -3,13 +3,13 @@
 # Yury Niadzvedski
 ***
 ### Contact information
-![location](https://img.icons8.com/fluency/20/null/worldwide-location.png 'CodePen icon by Icons8') **Location:** Mogilev, Republic of Belarus\
-![phone](https://img.icons8.com/emoji/20/null/mobile-phone.png 'CodePen icon by Icons8') **Phone:** +375-29-3692398\
-![mail](https://img.icons8.com/fluency/20/null/apple-mail.png 'CodePen icon by Icons8') **E-mail:** nedvedskiyuri@gmail.com\
-![git](https://img.icons8.com/color/20/000000/github--v1.png 'CodePen icon by Icons8') **GitHub:** [@veligom](https://github.com/veligom)\
-![discord](https://img.icons8.com/plasticine/20/null/discord-logo.png 'CodePen icon by Icons8') **Discord:** [Yury Niadzvedski](https://discordapp.com/users/1044452260052205602/)\
-![facebook](https://img.icons8.com/officel/20/null/facebook.png 'CodePen icon by Icons8') **Facebook:** [Y_Ned](https://www.facebook.com/rctata)\
-![codepen](https://img.icons8.com/ios/20/5B75D1/codepen.png 'CodePen icon by Icons8') **Codepen:** [veli](https://codepen.io/veligom)
+![location](https://img.icons8.com/ios-filled/20/null/visit.png) **Location:** Mogilev, Republic of Belarus\
+![phone](https://img.icons8.com/ios-filled/20/null/apple-phone.png) **Phone:** +375-29-3692398\
+![mail](https://img.icons8.com/ios-filled/20/null/apple-mail.png) **E-mail:** nedvedskiyuri@gmail.com\
+![git](https://img.icons8.com/fluency/20/null/github.png) **GitHub:** [@veligom](https://github.com/veligom)\
+![discord](https://img.icons8.com/ios-glyphs/20/null/discord-logo.png) **Discord:** [Yury Niadzvedski](https://discordapp.com/users/1044452260052205602/)\
+![facebook](https://img.icons8.com/material-rounded/20/null/facebook.png) **Facebook:** [Y_Ned](https://www.facebook.com/rctata)\
+![codepen](https://img.icons8.com/ios-filled/20/null/codepen.png) **Codepen:** [veli](https://codepen.io/veligom)
 ***
 ### About me
 My name is Yuri, I am 36 years old. I work as a freelancer in an educational project for entrepreneurs. I am actively studying programming, inspired by Web development. I like to spend my free time with my parents and friends. I am actively engaged in sports, like to travel and make new acquaintances.  
