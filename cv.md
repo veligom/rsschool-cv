@@ -4,3 +4,4 @@
 ***
 ### Contact information
 ![location](https://img.icons8.com/ios-filled/20/null/visit.png) **Location:** Mogilev, Republic of Belarus
+![phone](https://img.icons8.com/ios-filled/20/null/apple-phone.png) **Phone:** +375-29-3692398
