@@ -35,15 +35,16 @@ Every day before going to bed I try to read 25 sheets of fiction. The last book 
 	+ Computer networks
 ***
 ### Code example:
-**Task:** _Using prompt, request any number from the user and check
+**Task:**
+_Using prompt, request any number from the user and check
 it according to the following parameters:\
 more/less than 100;\
  even/odd;\
  fractional/non;\
  fractional;\
- positive/negative.  
- 
-Display the test results on the screen in any available way in approximately the
+ positive/negative._  
+
+_Display the test results on the screen in any available way in approximately the
 following format - "The number you entered is less than one hundred, even, positive,
 not fractional."_
 
