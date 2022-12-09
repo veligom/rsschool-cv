@@ -108,3 +108,5 @@ alert(`Введенное Вами число ${res_1}, ${res_2}, ${res_3}, ${re
 	+ UNIX systems
 	+ Windows Server, PowerShell и WMI
 ***
+### Languages
++ English - A1 (A2 in process…)
