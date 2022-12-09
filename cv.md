@@ -34,3 +34,63 @@ Every day before going to bed I try to read 25 sheets of fiction. The last book 
 	+ UNIX systems
 	+ Computer networks
 ***
+### Code example:
+**Task:** _Using prompt, request any number from the user and check
+it according to the following parameters:\
+more/less than 100;\
+ even/odd;\
+ fractional/non;\
+ fractional;\
+ positive/negative.
+Display the test results on the screen in any available way in approximately the
+following format - "The number you entered is less than one hundred, even, positive,
+not fractional."_
+
+**Decision #1**:
+``` javascript
+let res_1, res_2, res_3, res_4;
+const userNumber = prompt("Введите любое число:");
+if (+userNumber) {
+  if (userNumber < 100) {
+    res_1 = "меньше ста";
+  } else {
+    res_1 = "больше ста";
+  }
+  if (userNumber % 2 == 0) {
+    res_2 = "четное";
+  } else {
+    res_2 = "нечетное";
+  }
+  if (userNumber > 0) {
+    res_3 = "положительное";
+  } else {
+    res_3 = "отрицательное";
+  }
+  if (userNumber % 1 == 0) {
+    res_4 = "не целое";
+  } else {
+    res_4 = "дробное";
+	} 
+	alert(`Вы ввели число ${res_1}, ${res_2}, ${res_3}, ${res_4}!`);
+} else {
+	alert('К сожалению, Вы ввели не число, попробуйте ещё раз!');
+}
+```
+**Decision #2**:
+``` javascript
+let res_1, res_2, res_3, res_4;
+const userNumber = prompt("Введите любое число:");
+(+userNumber) || userNumber && alert("Пожалуйста, введите число!");
+res_1 =
+  (userNumber > 100 && "больше ста") ||
+  (userNumber < 100 && "меньше ста") ||
+  (userNumber == 100 && "равно 100");
+res_2 =
+  (userNumber > 0 && "положительное") || (userNumber < 0 && "отрицательное");
+res_3 =(userNumber % 1 == 0 && "целое") || (userNumber % 1 !== 0 && "дробное");
+res_4 =
+  (userNumber % 2 == 0 && "четное") || (userNumber % 2 !== 0 && "нечетное");
+
+alert(`Введенное Вами число ${res_1}, ${res_2}, ${res_3}, ${res_4}`);
+```
+***
