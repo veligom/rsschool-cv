@@ -10,3 +10,13 @@
 ![discord](https://img.icons8.com/ios-glyphs/20/null/discord-logo.png) **Discord:** [Yury Niadzvedski](https://discordapp.com/users/1044452260052205602/)
 ![facebook](https://img.icons8.com/material-rounded/20/null/facebook.png) **Facebook:** [Y_Ned](https://www.facebook.com/rctata)
 ![codepen](https://img.icons8.com/ios-filled/20/null/codepen.png) **Codepen:** [veli](https://codepen.io/veligom)
+***
+### About me
+My name is Yuri, I am 36 years old. I work as a freelancer in an educational project for entrepreneurs. I am actively studying programming, inspired by Web development. I like to spend my free time with my parents and friends. I am actively engaged in sports, like to travel and make new acquaintances.  
+
+I am currently actively studying English and the Java Script programming language.  
+
+Every day before going to bed I try to read 25 sheets of fiction. The last book I read was *["The Theory of Castes and roles"](https://www.litres.ru/aleksey-krol/teoriya-kast-i-roley/otzivi/)* by Alex Kroll, I highly recommend it.  
+
+>Never regret anything, because at a certain moment it was exactly what you wanted......
+***
