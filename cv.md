@@ -96,3 +96,15 @@ res_4 =
 alert(`Введенное Вами число ${res_1}, ${res_2}, ${res_3}, ${res_4}`);
 ```
 ***
+### Education and courses:
++ **Belarusian-Russian University**
+    + Lifting and transport construction machinery and equipment
++ **Institute of Information Technologies of BSUIR**
+    + Operating systems, operating system architecture
+	+ Database Basics (based on the MS SQL Server platform)
++ **Educational company of IT and digital professions GeekBrains**
+    + Operating systems
+	+ Computer networks
+	+ UNIX systems
+	+ Windows Server, PowerShell и WMI
+***
