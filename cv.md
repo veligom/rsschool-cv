@@ -20,3 +20,17 @@ Every day before going to bed I try to read 25 sheets of fiction. The last book 
 
 >Never regret anything, because at a certain moment it was exactly what you wanted......
 ***
+### Skills and Proficiency
++ **Basic knowledge of the programming language:**
+    + С++
+	+ C#
+	+ JS
+	+ MS SQL SERVER
++ **Graphic Editors:**
+    + Adobe Photoshop
+	+ CorelDRAW
++ **Other skills:**
+    + HTML5/CSS3
+	+ UNIX systems
+	+ Computer networks
+***
