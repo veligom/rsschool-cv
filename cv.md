@@ -1,7 +1,6 @@
 ***
 ![Foto](https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/318620207_3001993089945850_6498809695186095513_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_ohc=AyNticqoXIsAX-DQEgt&tn=XFZJcnE6XJfh_JOC&_nc_ht=scontent-waw1-1.xx&oh=00_AfATGOUifQWSzlQEldKPyL71VuwuGNdJe13NE1Uj-sI3gg&oe=6398C964)
 # Yury Niadzvedski
-***
 ### Contact information
 ![location](https://img.icons8.com/fluency/20/null/worldwide-location.png 'CodePen icon by Icons8') **Location:** Mogilev, Republic of Belarus\
 ![phone](https://img.icons8.com/emoji/20/null/mobile-phone.png 'CodePen icon by Icons8') **Phone:** +375-29-3692398\
