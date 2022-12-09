@@ -41,7 +41,8 @@ more/less than 100;\
  even/odd;\
  fractional/non;\
  fractional;\
- positive/negative.
+ positive/negative.  
+ 
 Display the test results on the screen in any available way in approximately the
 following format - "The number you entered is less than one hundred, even, positive,
 not fractional."_
