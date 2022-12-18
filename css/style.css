@@ -40,13 +40,17 @@
 }
 
 .box-2 {
-	margin-top: 15px;
-	padding: 5px;
-	background-color: rgb(179, 192, 188);
-	border: 2px solid #000;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: rgb(179, 192, 188);
+  border: 2px solid #000;
 }
-
-
+.box-3 {
+  margin-top: 15px;
+  padding: 5px;
+  background-color: rgb(179, 192, 188);
+  border: 2px solid #000;
+}
 
 .navigation a {
   font-size: 12px;
@@ -71,10 +75,24 @@
 }
 
 .box-2 p {
-	font-size: 15px;
-	margin-bottom: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .box-2 p a {
-	color: rgb(45, 99, 218);
+  color: rgb(45, 99, 218);
+}
+
+.box-3 {
+  list-style-position: inside;
+}
+
+.box-3 span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.box-3 ul {
+  font-size: 15px;
+  margin-bottom: 5px;
 }
