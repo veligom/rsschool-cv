@@ -8,7 +8,7 @@
 .wrapper {
   background: #bac9c4d7;
   width: 800px;
-  height: 1400px;
+  height: 2000px;
   margin: 20px auto;
   box-shadow: 5px 5px 5px 5px #b5b5b5;
   font-family: Arial, Helvetica, sans-serif;
@@ -65,10 +65,17 @@
   background-color: #b3c0bc;
   border: 2px solid #000;
 }
+.box-6 {
+  margin-top: 15px;
+  padding: 5px;
+  background-color: #b3c0bc;
+  border: 2px solid #000;
+}
 
 .navigation a {
   font-size: 12px;
   color: #000000;
+  font-weight: bold;
 }
 .navigation a:hover {
   color: #ffffff;
@@ -121,41 +128,41 @@
   margin-bottom: 5px;
 }
 code {
-	font-size: 13px;
+  font-size: 13px;
 }
-@keyframes load{
+@keyframes load {
   from {
-    width: 0%
+    width: 0%;
   }
 }
-@-webkit-keyframes load{
+@-webkit-keyframes load {
   from {
-    width: 0%
+    width: 0%;
   }
 }
-@-moz-keyframes load{
+@-moz-keyframes load {
   from {
-    width: 0%
+    width: 0%;
   }
 }
-@-o-keyframes load{
+@-o-keyframes load {
   from {
-    width: 0%
+    width: 0%;
   }
 }
 
-.skill{
+.skill {
   background-color: #b5b5b5;
   padding: 2px;
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 12px;
-  color: #FFF;
+  color: #a7a0a0;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.skill::before{
-  content:  attr(data-skill);
+.skill::before {
+  content: attr(data-skill);
   background-color: #000000;
   display: inline-block;
   padding: 5px 0 5px 10px;
@@ -166,25 +173,39 @@ code {
   -o-animation: load 2s 0s;
 }
 
-.skill.front::before{
-  background-color:  #000000;
+.skill.front::before {
+  background-color: #000000;
 }
-.skill.back::before{
+.skill.back::before {
   background-color: #000000;
 }
 
-.skill.number-1::before{
+.skill.number-1::before {
   width: calc(5% - 8px);
 }
-.skill.number-2::before{
+.skill.number-2::before {
   width: calc(10% - 8px);
 }
-.skill.number-3::before{
+.skill.number-3::before {
   width: calc(30% - 8px);
 }
-.skill.number-4::before{
+.skill.number-4::before {
   width: calc(60% - 8px);
 }
-.skill.number-5::before{
+.skill.number-5::before {
   width: calc(70% - 8px);
+}
+
+.circle {
+  background: #f8f5f5;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font: 25px/50px Times, serif;
+  border: 24px solid #b5b5b5;
+  border-right: 24px solid #000000;
+  border-radius: 100px;
+}
+span {
+  font-size: 0.6em;
 }
