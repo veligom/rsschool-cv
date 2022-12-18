@@ -44,6 +44,10 @@
   font-size: 12px;
   color: #000000;
 }
+.navigation a:hover{
+	color: #ffffff;
+	font-size: 14px;
+}
 .avatar {
 	padding: 5px;
 }
