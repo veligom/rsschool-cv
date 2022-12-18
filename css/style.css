@@ -209,3 +209,12 @@ code {
 span {
   font-size: 0.6em;
 }
+
+.footlogo {
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color: #b5b5b5;
+	margin-top: 15px;
+	font-weight: bold;
+}
