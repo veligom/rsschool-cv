@@ -31,32 +31,32 @@
               <div class="contact">
                 <a href="#"
                   ><img
-                    src="https://img.icons8.com/fluency/25/null/worldwide-location.png"
+                    src="https://img.icons8.com/ios-filled/23/null/place-marker--v1.png"
                     alt="location"
                 /></a>
                 <a href="#"
                   ><img
-                    src="https://img.icons8.com/emoji/25/null/mobile-phone.png"
+                    src="https://img.icons8.com/ios-filled/23/null/android.png"
                     alt="phone"
                 /></a>
                 <a href="#"
                   ><img
-                    src="https://img.icons8.com/fluency/25/null/apple-mail.png"
+                    src="https://img.icons8.com/ios-filled/22/null/open-envelope.png"
                     alt="mail"
                 /></a>
                 <a href="https://discordapp.com/users/1044452260052205602/"
                   ><img
-                    src="https://img.icons8.com/plasticine/25/null/discord-logo.png"
+                    src="https://img.icons8.com/ios-filled/25/null/discord-logo.png"
                     alt="discord"
                 /></a>
                 <a href="https://www.facebook.com/rctata"
                   ><img
-                    src="https://img.icons8.com/officel/25/null/facebook.png"
+                    src="https://img.icons8.com/glyph-neue/25/null/facebook.png"
                     alt="facebook"
                 /></a>
                 <a href="#"
                   ><img
-                    src="https://img.icons8.com/ios/25/5B75D1/codepen.png"
+                    src="https://img.icons8.com/ios-filled/25/null/codepen.png"
                     alt="codepen"
                 /></a>
               </div>
@@ -66,7 +66,12 @@
       </header>
       <main>
         <div class="box-2">
-          <h2 class="about-me"><img src="https://img.icons8.com/glyph-neue/35/null/about-us-male.png"/> About me</h2>
+          <h2 class="about-me">
+            <img
+              src="https://img.icons8.com/glyph-neue/35/null/about-us-male.png"
+            />
+            About me
+          </h2>
           <p>
             My name is Yuri, I am 36 years old. I work as a freelancer in an
             educational project for entrepreneurs. I am actively studying
@@ -89,14 +94,19 @@
           </p>
 
           <p>
-			<q>
-			  Never regret anything, because at a certain moment it was exactly
-			  what you wanted......
-			</q>
-		  </p>
+            <q>
+              Never regret anything, because at a certain moment it was exactly
+              what you wanted......
+            </q>
+          </p>
         </div>
         <div class="box-3">
-          <h2 class="educ-cours"><img src="https://img.icons8.com/ios-filled/35/null/library-building.png"/> Education and courses</h2>
+          <h2 class="educ-cours">
+            <img
+              src="https://img.icons8.com/ios-filled/35/null/library-building.png"
+            />
+            Education and courses
+          </h2>
           <ul>
             <li>
               <span>Belarusian-Russian University</span>
@@ -114,7 +124,10 @@
               </ul>
             </li>
             <li>
-              <span>Educational company of IT and digital professions GeekBrains</span>
+              <span
+                >Educational company of IT and digital professions
+                GeekBrains</span
+              >
               <ul>
                 <li>Operating systems</li>
                 <li>Computer networks</li>
@@ -123,6 +136,45 @@
               </ul>
             </li>
           </ul>
+        </div>
+        <div class="box-4">
+          <h2 class="codexpl">
+            <img
+              src="https://img.icons8.com/ios-filled/35/null/code-file.png"
+            />
+            Code example
+          </h2>
+          <p><span>Task:</span></p>
+          <p>
+            Using prompt, request any number from the user and check it
+            according to the following parameters: more/less than 100; even/odd;
+            fractional/non; fractional; positive/negative.
+          </p>
+          <p>
+            Display the test results on the screen in any available way in
+            approximately the following format - "The number you entered is less
+            than one hundred, even, positive, not fractional."
+          </p>
+		  <p><span>Decision:</span></p>
+          <code>
+            let res_1, res_2, res_3, res_4;<br />
+            const userNumber = prompt("Enter any number:");<br />
+            (+userNumber) || userNumber && alert("Please enter a number!");<br />
+            res_1 =<br />
+            (userNumber > 100 && "more than a hundred") ||<br />
+            (userNumber < 100 && "less than a hundred") ||<br />
+            (userNumber == 100 && "equals 100");<br />
+            res_2 =<br />
+            (userNumber > 0 && "positive") || (userNumber < 0 && "negative");<br />
+            res_3 =(userNumber % 1 == 0 && "whole") || (userNumber % 1 !== 0 &&
+            "fractional");<br />
+            res_4 =<br />
+            (userNumber % 2 == 0 && "even") || (userNumber % 2 !== 0 &&
+            "odd");<br />
+
+            alert(`The number you entered ${res_1}, ${res_2}, ${res_3},
+            ${res_4}`);
+          </code>
         </div>
       </main>
     </div>
