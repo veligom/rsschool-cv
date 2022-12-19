@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Yury Niadzvedski</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-menu">
+          <nav>
+            <ul class="navigation">
+              <li><a href="#box-2">About me</a></li>
+              <li><a href="#box-3">Skills and Proficiency</a></li>
+              <li><a href="#box-4">Code example</a></li>
+              <li><a href="#box-5">Education and courses</a></li>
+              <li><a href="#box-6">Languages</a></li>
+              <li><a href="#box-7git">My GitHub</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="box box-1">
+          <div class="myinfo">
+            <img class="avatar" src="./img/header/prof_.png" alt="avatar" />
+            <div class="myname">
+              <h1>Yury Niadzvedski</h1>
+              <p>Beginning Frontend Developer</p>
+              <div class="contact">
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/ios-filled/23/null/place-marker--v1.png"
+                    alt="location"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/ios-filled/23/null/android.png"
+                    alt="phone"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/ios-filled/22/null/open-envelope.png"
+                    alt="mail"
+                /></a>
+                <a href="https://discordapp.com/users/1044452260052205602/"
+                  ><img
+                    src="https://img.icons8.com/ios-filled/25/null/discord-logo.png"
+                    alt="discord"
+                /></a>
+                <a href="https://www.facebook.com/rctata"
+                  ><img
+                    src="https://img.icons8.com/glyph-neue/25/null/facebook.png"
+                    alt="facebook"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/ios-filled/25/null/codepen.png"
+                    alt="codepen"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section id="box-2" class="box box-2">
+          <h2 class="about-me">
+            <img
+              src="https://img.icons8.com/glyph-neue/35/null/about-us-male.png"
+            />
+            About me
+          </h2>
+          <p>
+            My name is Yuri, I am 36 years old. I work as a freelancer in an
+            educational project for entrepreneurs. I am actively studying
+            programming, inspired by Web development. I like to spend my free
+            time with my parents and friends. I am actively engaged in sports,
+            like to travel and make new acquaintances.
+          </p>
+          <p>
+            I am currently actively studying English and the Java Script
+            programming language.
+          </p>
+          <p>
+            Every day before going to bed I try to read 25 sheets of fiction.
+            The last book I read was
+            <a
+              href="https://www.litres.ru/aleksey-krol/teoriya-kast-i-roley/otzivi/"
+              >"Theory of castes and roles"</a
+            >
+            by Alex Kroll, I highly recommend it.
+          </p>
+
+          <p>
+            <q>
+              Never regret anything, because at a certain moment it was exactly
+              what you wanted......
+            </q>
+          </p>
+        </section>
+        <section id="box-3"class="box box-3">
+          <h2 class="educ-cours">
+            <img
+              src="https://img.icons8.com/ios-filled/35/null/library-building.png"
+            />
+            Education and courses
+          </h2>
+          <ul>
+            <li>
+              <span>Belarusian-Russian University</span>
+              <ul>
+                <li>
+                  Lifting and transport construction machinery and equipment
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span>Institute of Information Technologies of BSUIR</span>
+              <ul>
+                <li>Operating systems, operating system architecture</li>
+                <li>Database Basics (based on the MS SQL Server platform)</li>
+              </ul>
+            </li>
+            <li>
+              <span
+                >Educational company of IT and digital professions
+                GeekBrains</span
+              >
+              <ul>
+                <li>Operating systems</li>
+                <li>Computer networks</li>
+                <li>UNIX systems</li>
+                <li>Windows Server, PowerShell и WMI</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section id="box-4" class="box box-4">
+          <h2 class="codexpl">
+            <img
+              src="https://img.icons8.com/ios-filled/35/null/code-file.png"
+            />
+            Code example
+          </h2>
+          <p><span>Task:</span></p>
+          <p>
+            Using prompt, request any number from the user and check it
+            according to the following parameters: more/less than 100; even/odd;
+            fractional/non; fractional; positive/negative.
+          </p>
+          <p>
+            Display the test results on the screen in any available way in
+            approximately the following format - "The number you entered is less
+            than one hundred, even, positive, not fractional."
+          </p>
+          <p><span>Decision:</span></p>
+          <code>
+            let res_1, res_2, res_3, res_4;<br />
+            const userNumber = prompt("Enter any number:");<br />
+            (+userNumber) || userNumber && alert("Please enter a number!");<br />
+            res_1 =<br />
+            (userNumber > 100 && "more than a hundred") ||<br />
+            (userNumber < 100 && "less than a hundred") ||<br />
+            (userNumber == 100 && "equals 100");<br />
+            res_2 =<br />
+            (userNumber > 0 && "positive") || (userNumber < 0 && "negative");<br />
+            res_3 =(userNumber % 1 == 0 && "whole") || (userNumber % 1 !== 0 &&
+            "fractional");<br />
+            res_4 =<br />
+            (userNumber % 2 == 0 && "even") || (userNumber % 2 !== 0 &&
+            "odd");<br />
+
+            alert(`The number you entered ${res_1}, ${res_2}, ${res_3},
+            ${res_4}`);
+          </code>
+        </section>
+        <section id="box-5" class="box box-5">
+          <h2 class="skilapro">
+            <img
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/35/null/external-skills-management-kiranshastry-solid-kiranshastry-9.png"
+            />
+            Skills and Proficiency
+          </h2>
+          <div class="skill number-1" data-skill="С++"></div>
+          <div class="skill number-2" data-skill="JS"></div>
+          <div class="skill number-3" data-skill="HTML5/CSS3"></div>
+          <div class="skill number-4" data-skill="Adobe Photoshop"></div>
+          <div class="skill number-5" data-skill="Computer networks"></div>
+        </section>
+        <section id="box-6" class="box box-6">
+          <h2 class="lang">
+            <img src="https://img.icons8.com/glyph-neue/35/null/language.png" />
+            Languages
+          </h2>
+          <div class="circle">38<span>%</span></div>
+          <p>English - A1 (A2 in process…)</p>
+        </section>
+      </main>
+      <footer>
+        <div class="footlogo">
+          <a href="https://rs.school/js/"
+            ><img
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="logo"
+              width="120"
+              height="100"
+          /></a>
+          <p>&copy;&nbsp;Yury Niadzvedski&nbsp;2022</p>
+          <a href="https://github.com/veligom"
+            ><span></span
+            ><img id="box-7" src="https://img.icons8.com/glyph-neue/60/null/github.png"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
