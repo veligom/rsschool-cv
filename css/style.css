@@ -75,6 +75,10 @@
   list-style-position: inside;
 }
 
+.linkedu {
+	color: #000;
+}
+
 .box-3 span {
   text-decoration: underline;
   font-weight: 700;
