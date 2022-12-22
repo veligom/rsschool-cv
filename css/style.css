@@ -124,6 +124,9 @@
 .avatar:hover {
 	filter: saturate(250%);
 }
+.footlogo a:hover {
+	transform: translate(8px,-5px);
+}
 code {
   font-size: 13px;
 }
