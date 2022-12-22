@@ -120,6 +120,10 @@
 .mypr span:hover {
 	color: #ffffff;
 }
+
+.avatar:hover {
+	filter: saturate(250%);
+}
 code {
   font-size: 13px;
 }
