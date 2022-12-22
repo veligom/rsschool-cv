@@ -110,6 +110,9 @@
   text-align: justify;
 }
 
+.box-2 a:hover {
+	color: #ffffff;
+}
 .box-3 a:hover {
 	color: #ffffff;
 }
