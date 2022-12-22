@@ -109,6 +109,14 @@
   margin-bottom: 5px;
   text-align: justify;
 }
+
+.box-3 a:hover {
+	color: #ffffff;
+}
+
+.mypr span:hover {
+	color: #ffffff;
+}
 code {
   font-size: 13px;
 }
