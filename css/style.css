@@ -70,6 +70,7 @@
 .box-2 p {
   font-size: 15px;
   margin-bottom: 5px;
+  text-align: justify;
 }
 
 .box-2 p a {
@@ -106,6 +107,18 @@
 .box-4 p {
   font-size: 15px;
   margin-bottom: 5px;
+  text-align: justify;
+}
+
+.box-2 a:hover {
+	color: #ffffff;
+}
+.box-3 a:hover {
+	color: #ffffff;
+}
+
+.mypr span:hover {
+	color: #ffffff;
 }
 code {
   font-size: 13px;
